@@ -1,0 +1,29 @@
+/* Apply blur effect to parent elements */
+._8nE1Y, ._13jwn {
+  filter: blur(5px); /* Adjust blur strength as needed */
+}
+
+/* Remove blur on hover for parent elements */
+._8nE1Y:hover, ._13jwn:hover {
+  filter: none;
+}
+
+/* Apply blur effect to received and sent messages */
+div.message-in, div.message-out {
+  filter: blur(5px); /* Adjust blur strength as needed */
+}
+
+/* Remove blur on hover for messages */
+div.message-in:hover, div.message-out:hover {
+  filter: none;
+}
+
+/* Apply blur effect to media elements (videos and images) */
+div.media-thumb {
+  filter: blur(100px); /* Adjust blur strength as needed */
+}
+
+/* Remove blur on hover for media elements */
+div.media-thumb:hover {
+  filter: none;
+}
