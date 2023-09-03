@@ -1,4 +1,10 @@
+/* WhatsApp Blur Extension */
+/* Created by Sorabh Srivastava */
+/* This code is provided under the MIT License and can be freely used by others. */
+
 /* Apply blur effect to parent elements */
+
+ /*Remove selector ._13jwn if u want profile picture visible */
 ._8nE1Y, ._13jwn {
   filter: blur(5px); /* Adjust blur strength as needed */
 }
@@ -18,9 +24,9 @@ div.message-in:hover, div.message-out:hover {
   filter: none;
 }
 
-/* Apply blur effect to media elements (videos and images) */
+/* Apply stronger blur effect to media elements (videos and images) */
 div.media-thumb {
-  filter: blur(100px); /* Adjust blur strength as needed */
+  filter: blur(20px); /* Increase blur strength for media */
 }
 
 /* Remove blur on hover for media elements */
