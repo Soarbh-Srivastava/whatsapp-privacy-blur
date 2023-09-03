@@ -1,3 +1,8 @@
+/*
+ * WhatsApp Blur Extension
+ * Created by Sorabh Srivastava
+ * This code is provided under the MIT License and can be freely used by others.
+ */
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
   if (message.blurEnabled) {
     // Enable blur effect logic here
